@@ -1,8 +1,16 @@
-.App {
-  text-align: center;
+.holdHeader {
+  display: flex;
+  justify-content: space-around;
 }
 
-.App-logo {
+.header :hover{
+  color: blueviolet;
+  font-style: italic;
+}
+
+
+
+/* .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
@@ -22,9 +30,9 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
+} */
 
-.App-link {
+/* .App-link {
   color: #61dafb;
 }
 
@@ -35,4 +43,26 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.productsList {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.cartList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#addCart :hover{
+  background: purple;
 }
